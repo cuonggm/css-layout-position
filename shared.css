@@ -1,5 +1,7 @@
 body {
   font-family: Anton;
+  margin: 0;
+  padding: 0;
 }
 
 body #logo {
@@ -15,6 +17,12 @@ ul {
   padding: 0;
 }
 
-body a {
+body section a {
   text-decoration: none;
+  color: blue;
+  background-color: rgb(255, 251, 0);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }

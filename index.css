@@ -1,5 +1,5 @@
 .container {
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -18,12 +18,8 @@
   /* width: 200px; */
 }
 
-.header-item-bar {
-  background-color: aquamarine;
-}
-
 .header-items-container {
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -32,4 +28,10 @@
 .header-item {
   margin-left: 10px;
   /* background-color: bisque; */
+}
+
+body header a {
+  padding: 2px;
+  color: green;
+  text-decoration: none;
 }

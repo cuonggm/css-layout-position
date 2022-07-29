@@ -1,0 +1,37 @@
+#hero {
+    height: 800px;
+    background-image: url("/spaces/ocean.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /* position: relative;
+    top: -60px; */
+    padding-top: 100px;
+}
+/* #hero a {
+    color: white;
+} */
+
+#hero-content {
+    margin-top: 0px;
+    width: 70%;
+    background-color: rgb(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(51, 47, 47, 0.8);
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+#hero-content h1 {
+    font-size: 25pt;
+}
+#hero-content p {
+    text-transform: uppercase;
+}
+
+#hero-content a:hover {
+    background-color: lightblue;
+}
